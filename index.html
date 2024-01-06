@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css" />
+  </head>
+  <body style="background-color: var(--text-secondary, rgba(0, 0, 0, 0.05))">
+    <h1
+      style="
+        width: 90%;
+        margin: auto;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 133.4%;
+      "
+    >
+      Mentors
+    </h1>
+    <div
+      class=""
+      style="
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <fieldset
+        style="
+          padding: 5px 20px;
+          border-radius: 5px;
+          border: 0.2px solid var(--text-secondary, rgba(0, 0, 0, 0.6));
+        "
+      >
+        <legend style="color: var(--text-secondary, rgba(0, 0, 0, 0.6))">
+          Search
+        </legend>
+        <input
+          type="text"
+          class="search"
+          placeholder="Search by name"
+          style="
+            border: 0;
+            background-color: transparent;
+            padding: 0px 10px 15px;
+          "
+        />
+      </fieldset>
+      <div class="icon">
+        <i id="icells"
+          class="fa-solid fa-table-cells"
+          style="font-size: 20px; margin-right: 5px"
+        ></i>
+        <i id="ilist" class="fa-solid fa-list" style="font-size: 20px"></i>
+      </div>
+    </div>
+
+    <div class="box"></div>
+
+    <dialog
+      class="infoModal"
+      style="
+        position: relative;
+        left: 59.9%;
+        width: 40%;
+        overflow: hidden;
+        border: 0;
+        overflow: auto;
+      "
+    >
+      <div
+        class="close"
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 90%;
+          margin: auto;
+          padding: 25px 20px;
+        "
+      >
+        <div class="iconx">
+          <i
+            class="fa-solid fa-xmark"
+            id="ix"
+            style="color: #305fb0; cursor: pointer"
+          ></i>
+        </div>
+        <div class="divh1">
+          <h1>Mentors Info</h1>
+        </div>
+      </div>
+      <div class="divUser"></div>
+
+      <div class="div"></div>
+      
+      <div class="divLeve"></div>
+    </dialog>
+
+    <table>
+        <thead >
+            <tr>
+                <th>FULL NAME</th>
+                <th>GROUPS</th>
+                <th>PHONE</th>
+                <th>POSITION</th>
+            </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.container {
+  cursor: pointer;
+  width: 25%;
+  height: 30%;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.12);
+}
+h3 {
+  color: var(--text-secondary, rgba(0, 0, 0, 0.6));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+}
+h1 {
+  color: var(--text-primary, rgba(0, 0, 0, 0.87));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.4%;
+  width: 100%;
+}
+.p {
+  color: var(--text-secondary, rgba(0, 0, 0, 0.6));
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+  margin-top: 3px;
+  color: rgba(0, 0, 0, 0.87);
+  /* color: var(--text-secondary, rgba(0, 0, 0, 0.6)); */
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: 0.17px;
+}
+.divOpshi {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+}
+.divPhone {
+  display: flex;
+  align-items: center;
+}
+.divPosition {
+  display: flex;
+  align-items: center;
+}
+.h1{
+  color: var(--text-primary, rgba(0, 0, 0, 0.87));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133.4%;
+}
+.divPosition h2 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: 0.17px;
+  font-size: 19px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.divImg img {
+  width: 60px;
+}
+.h2Position {
+  font-size: 19px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+.Img img {
+  width: 130px;
+}
+.divUser {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div{
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+}
+.divwork{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.divLeve{
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  background: #fff;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.divLevels{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+table{
+  display: none;
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+}
+tr{
+  cursor: pointer;
+}
+table th{
+  text-align: center;
+}
+.tdTitle{
+  padding: 10px 5px;
+}
+.tdGroup{
+  background-color: #e2e2e2;
+
+}
+.tdPhone{
+  padding: 15px 10px;
+}
+.tdPositino{
+  padding: 15px 10px;
+}
+.divtdGroup{
+  padding: 15px 10px;
+}
